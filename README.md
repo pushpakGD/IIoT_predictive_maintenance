@@ -7,4 +7,7 @@
                This dataset was taken from UCI machine learning repository [https://archive.ics.uci.edu/dataset/601/ai4i+2020+predictive+maintenance+dataset****].
 
 ## Project Goal:
-** The primary goal of this project is to develop a machine learning model that can utilize real-time sensor data from the milling machine, based on Industrial Internet of Things (IIoT) technology.                      The model aims to forecast maintenance needs and identify potential types of failures associated with the milling machine.
+The primary goal of this project is to develop a machine learning model that can utilize sensor data from the milling machine, based on Industrial Internet of Things (IIoT) technology.                      
+The model aims to forecast maintenance needs and identify potential types of failures associated with the milling machine.
+
+Decision trees and the Random Forest classifier have been employed in this project to achieve these objectives.
