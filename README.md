@@ -7,7 +7,20 @@
                This dataset was taken from UCI machine learning repository [https://archive.ics.uci.edu/dataset/601/ai4i+2020+predictive+maintenance+dataset****].
 
 ## Project Goal:
+It aims to forecast maintenance needs and identify potential types of failures associated with the milling machine.
 The primary goal of this project is to develop a machine learning model that can utilize sensor data from the milling machine, based on Industrial Internet of Things (IIoT) technology.                      
-The model aims to forecast maintenance needs and identify potential types of failures associated with the milling machine.
-
 Decision trees and the Random Forest classifier have been employed in this project to achieve these objectives.
+
+##Information about the dataset and the attribute:
+The dataset consists infromation from an existing milling machine and consists of 10,000 data points from a stored as rows with 14 features in columns
+- UID: unique identifier ranging from 1 to 10000
+- product ID: consisting of a letter L, M, or H for low (50% of all products), medium (30%) and high (20%) as product quality variants and a variant-specific serial number
+- type: the product type or variant. "L": Low-quality product variant, "M": Medium-quality product variant, "H": High-quality product variant
+- air temperature [K]: generated using a random walk process later normalized to a standard deviation of 2 K around 300 K
+- process temperature [K]: generated using a random walk process normalized to a standard deviation of 1 K, added to the air temperature plus 10 K.
+- rotational speed [rpm]: calculated from a power of 2860 W, overlaid with a normally distributed noise
+- torque [Nm]: torque values are normally distributed around 40 Nm with a SD = 10 Nm and no negative values.
+- tool wear [min]: refers to the amount of wear and tear that a cutting tool used in the milling process has experienced over time.
+- a 'machine failure' label that indicates, whether the machine has failed in this particular datapoint for any of the following failure modes are true.
+    '1' indicates machine failure
+
