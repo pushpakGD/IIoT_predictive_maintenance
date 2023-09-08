@@ -26,7 +26,7 @@ Decision trees and the Random Forest classifier have been employed in this proje
   outperforms the Decision Tree model in terms of accuracy. This suggests that the ensemble approach used in Random Forest 
   helps improve predictive performance.
   
-##Information about the dataset and the attribute:
+## Information about the dataset and the attribute:
 The dataset consists infromation from an existing milling machine and consists of 10,000 data points from a stored as rows with 14 features in columns
 - UID: unique identifier ranging from 1 to 10000
 - product ID: consisting of a letter L, M, or H for low (50% of all products), medium (30%) and high (20%) as product quality variants and a variant-specific serial number
