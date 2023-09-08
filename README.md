@@ -11,7 +11,7 @@ It aims to forecast maintenance needs and identify potential types of failures a
 The primary goal of this project is to develop a machine learning model that can utilize sensor data from the milling machine, based on Industrial Internet of Things (IIoT) technology.                      
 Decision trees and the Random Forest classifier have been employed in this project to achieve these objectives.
 
-##Results Obtained:
+## Results Obtained:
 - Strong Correlations:
   The variables, including Process temperature, Air temperature, Torque, and Rotational speed, exhibit strong correlations.   This suggests that changes in one of these variables often coincide with changes in the others, indicating a potential      relationship between them.
 - Common Causes of Machine Failure:
